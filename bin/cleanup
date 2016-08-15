@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+'use strict'
+
+const fs = require('fs')
+const cleanup = require('../')
+const argv = require('yargs').argv
+
+if (!argv._.length) {
+  console.log('usage: ewasm-cleanup <input> <output>')
+  process.exit()
+}
+
+const input = fs.readFileSync(argv._[0]).toString()
+
+fs.writeFileSync(argv._[1], cleanup.cleanupWAST(input))

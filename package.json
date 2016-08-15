@@ -1,0 +1,34 @@
+{
+  "name": "ewasm-cleanup",
+  "version": "0.0.0",
+  "description": "Cleanup eWASM contracts to satisfy the specification",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ewasm-cleanup": "./bin/cleanup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewasm/ewasm-cleanup.git"
+  },
+  "keywords": [
+    "ethereum",
+    "webassembly",
+    "wasm",
+    "ewasm"
+  ],
+  "author": "Alex Beregszaszi <alex@rtfs.hu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ewasm/ewasm-cleanup/issues"
+  },
+  "homepage": "https://github.com/ewasm/ewasm-cleanup#readme",
+  "dependencies": {
+    "wast-codegen": "^0.5.1",
+    "wast-graph": "^1.1.0",
+    "wast-parser": "^0.21.0",
+    "yargs": "^4.8.1"
+  }
+}
