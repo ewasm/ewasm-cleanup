@@ -1,6 +1,6 @@
 {
   "name": "ewasm-cleanup",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Cleanup eWASM contracts to satisfy the specification",
   "main": "index.js",
   "scripts": {
