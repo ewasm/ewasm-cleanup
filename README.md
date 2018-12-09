@@ -1,3 +1,7 @@
+## Unmaintained
+
+**This tool was replaced by [wasm-chisel](https://github.com/wasmx/wasm-chisel).**
+
 # ewasm-cleanup
 
 This tool transform WebAssembly S-expressions (WAST) code to an output conforming to the [*eWASM Contract Interface*](https://github.com/ethereum/evm2.0-design).
